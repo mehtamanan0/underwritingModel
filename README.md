@@ -18,7 +18,7 @@ sudo apt install python3-pip
 #### Clone the repository
 
 ```
-git clone git@gl.commuterclub.co.uk:main/cc_underwritingModel.git; cd cc_underwritingModel; git checkout model
+git clone https://github.com/mehtamanan0/underwritingModel.git; cd underwritingModel
 ```
 
 #### Install python dependencies
@@ -53,7 +53,7 @@ on which the server is running**
 
 URL :
 ```
-http://127.0.0.1:5000/predict?amount_pence=113542&balance_mortgage=0&direct_debit_day=2&estatus=8&gross_income=0&home_value=0&hstatus=1&monthly_mortgage=0&monthly_payment=120.58&net_income=0&number_of_dependants=0&reason=10&reasonother=CC-TravelTicket&rent=0&rsaddress_town=London&rsemployment_employers_name=0&rsemployment_job_title=0&rsemployment_pre_employer_name=0&rsemployment_pre_job_title=0&rsemployment_rsaddress_town=0&work_number=7886870267
+http://127.0.0.1:5000/predict?amount_pence=113542&balance_mortgage=0&direct_debit_day=2&estatus=8&gross_income=0&home_value=0&hstatus=1&monthly_mortgage=0&monthly_payment=120.58&net_income=0&number_of_dependants=0&reason=10&reasonother=TravelTicket&rent=0&rsaddress_town=London&rsemployment_employers_name=0&rsemployment_job_title=0&rsemployment_pre_employer_name=0&rsemployment_pre_job_title=0&rsemployment_rsaddress_town=0&work_number=7886870267
 ```
 
 Copy the link and paste it into a browser
@@ -61,7 +61,7 @@ Copy the link and paste it into a browser
 #### Using curl
 
 ```
-curl "http://127.0.0.1:5000/predict?amount_pence=113542&balance_mortgage=0&direct_debit_day=2&estatus=8&gross_income=0&home_value=0&hstatus=1&monthly_mortgage=0&monthly_payment=120.58&net_income=0&number_of_dependants=0&reason=10&reasonother=CC-TravelTicket&rent=0&rsaddress_town=London&rsemployment_employers_name=0&rsemployment_job_title=0&rsemployment_pre_employer_name=0&rsemployment_pre_job_title=0&rsemployment_rsaddress_town=0&work_number=7886870267"
+curl "http://127.0.0.1:5000/predict?amount_pence=113542&balance_mortgage=0&direct_debit_day=2&estatus=8&gross_income=0&home_value=0&hstatus=1&monthly_mortgage=0&monthly_payment=120.58&net_income=0&number_of_dependants=0&reason=10&reasonother=TravelTicket&rent=0&rsaddress_town=London&rsemployment_employers_name=0&rsemployment_job_title=0&rsemployment_pre_employer_name=0&rsemployment_pre_job_title=0&rsemployment_rsaddress_town=0&work_number=7886870267"
 ```
 
 #### The output should look something like this :
